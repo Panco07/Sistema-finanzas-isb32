@@ -1,0 +1,22 @@
+# Archivos de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno (contraseñas y claves)
+.env
+.env.local
+.env.production
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de logs
+*.log
+
+# Carpetas de build/compilación
+dist/
+build/
