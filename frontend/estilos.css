@@ -1,0 +1,173 @@
+/* ========================================
+   ESTILOS GENERALES
+   ======================================== */
+
+/* Reset básico: elimina márgenes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh; /* Altura mínima: toda la ventana */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    padding: 20px;
+}
+
+/* ========================================
+   CONTENEDOR PRINCIPAL
+   ======================================== */
+
+.contenedor-principal {
+    width: 100%;
+    max-width: 450px; /* Ancho máximo */
+}
+
+/* ========================================
+   ENCABEZADO
+   ======================================== */
+
+.encabezado {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.encabezado h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.encabezado p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* ========================================
+   TARJETA (Card)
+   ======================================== */
+
+.tarjeta {
+    background: white;
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* Sombra */
+}
+
+.tarjeta h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+/* ========================================
+   CAMPOS DEL FORMULARIO
+   ======================================== */
+
+.campo-formulario {
+    margin-bottom: 20px;
+}
+
+.campo-formulario label {
+    display: block; /* Ocupa todo el ancho */
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: border-color 0.3s; /* Transición suave */
+}
+
+/* Cuando el input tiene foco (click) */
+.campo-formulario input:focus {
+    outline: none; /* Quita el borde azul por defecto */
+    border-color: #667eea;
+}
+
+/* ========================================
+   BOTONES
+   ======================================== */
+
+.btn-primary {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer; /* Cambia el cursor a "mano" */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efecto hover (cuando pasas el mouse) */
+.btn-primary:hover {
+    transform: translateY(-2px); /* Sube un poco */
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* Efecto active (cuando haces click) */
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* ========================================
+   ENLACE DE REGISTRO
+   ======================================== */
+
+.enlace-registro {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.enlace-registro a {
+    color: #667eea;
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: 600;
+}
+
+.enlace-registro a:hover {
+    text-decoration: underline; /* Subraya al pasar el mouse */
+}
+
+/* ========================================
+   MENSAJES DE ERROR/ÉXITO
+   ======================================== */
+
+.mensaje {
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mensaje-error {
+    background-color: #ffe6e6;
+    color: #d32f2f;
+    border: 1px solid #ffcdd2;
+}
+
+.mensaje-exito {
+    background-color: #e6ffe6;
+    color: #388e3c;
+    border: 1px solid #c8e6c9;
+}

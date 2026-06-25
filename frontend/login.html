@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Gestión de Finanzas</title>
+    <!-- Aquí vinculamos el archivo CSS que crearemos después -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="contenedor-principal">
+        
+        <!-- Encabezado -->
+        <div class="encabezado">
+            <h1> Gestión de Finanzas Personales</h1>
+            <p>Inicia sesión para controlar tus gastos e ingresos</p>
+        </div>
+
+        <!-- Formulario de Login -->
+        <div class="tarjeta">
+            <h2>Iniciar Sesión</h2>
+            
+            <form id="formularioLogin">
+                <!-- Campo: Correo/Cédula -->
+                <div class="campo-formulario">
+                    <label for="correo">Correo o Cédula:</label>
+                    <input type="text" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <!-- Campo: Contraseña -->
+                <div class="campo-formulario">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="••••••••" required>
+                </div>
+
+                <!-- Botón de Login -->
+                <button type="submit" class="btn-primary">Ingresar</button>
+            </form>
+
+            <!-- Enlace a Registro -->
+            <div class="enlace-registro">
+                <p>¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Aquí vinculamos el JavaScript -->
+    <script src="js/login.js"></script>
+</body>
+</html>
