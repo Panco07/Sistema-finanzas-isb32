@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // AQUÍ CONECTAREMOS CON EL BACKEND (lo haremos en el Paso 7)
         try {
-            const respuesta = await fetch('http://localhost:3306/api/registro', {
+            const respuesta = await fetch('http://localhost:3000/api/registro', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
