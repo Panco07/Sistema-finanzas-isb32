@@ -1,6 +1,6 @@
-/* ========================================
+/* 
    ESTILOS GENERALES
-   ======================================== */
+*/
 
 /* Reset básico: elimina márgenes por defecto */
 * {
@@ -20,18 +20,19 @@ body {
     padding: 20px;
 }
 
-/* ========================================
+/* 
    CONTENEDOR PRINCIPAL
-   ======================================== */
+
+*/
 
 .contenedor-principal {
     width: 100%;
     max-width: 450px; /* Ancho máximo */
 }
 
-/* ========================================
+/*
    ENCABEZADO
-   ======================================== */
+ */
 
 .encabezado {
     text-align: center;
@@ -50,9 +51,9 @@ body {
     opacity: 0.9;
 }
 
-/* ========================================
+/* 
    TARJETA (Card)
-   ======================================== */
+ */
 
 .tarjeta {
     background: white;
@@ -68,9 +69,9 @@ body {
     font-size: 24px;
 }
 
-/* ========================================
+/* 
    CAMPOS DEL FORMULARIO
-   ======================================== */
+ */
 
 .campo-formulario {
     margin-bottom: 20px;
@@ -99,9 +100,9 @@ body {
     border-color: #667eea;
 }
 
-/* ========================================
+/*
    BOTONES
-   ======================================== */
+ */
 
 .btn-primary {
     width: 100%;
@@ -127,9 +128,9 @@ body {
     transform: translateY(0);
 }
 
-/* ========================================
+/*
    ENLACE DE REGISTRO
-   ======================================== */
+ */
 
 .enlace-registro {
     text-align: center;
@@ -148,9 +149,9 @@ body {
     text-decoration: underline; /* Subraya al pasar el mouse */
 }
 
-/* ========================================
+/* 
    MENSAJES DE ERROR/ÉXITO
-   ======================================== */
+ */
 
 .mensaje {
     padding: 12px;

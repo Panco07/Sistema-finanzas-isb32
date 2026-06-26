@@ -1,16 +1,16 @@
 // Esperar a que el formulario se cargue
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Obtener el formulario
+    // Tener el formulario
     const formulario = document.getElementById('formularioRegistro');
     
     // Escuchar cuando se envíe el formulario
     formulario.addEventListener('submit', async function(evento) {
         
-        // Prevenir que la página se recargue
+        // Para prevenir que la página se recargue
         evento.preventDefault();
         
-        // Obtener los valores de los campos
+        // Se obtienen los valores de los campos
         const datos = {
             nombre: document.getElementById('nombre').value,
             cedula: document.getElementById('cedula').value,

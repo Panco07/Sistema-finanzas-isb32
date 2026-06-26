@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         console.log('Intentando login con:', correo);
         
-        // AQUÍ irá la lógica de login (la haremos después)
+        // AQUÍ irá la lógica de login 
         alert('Función de login en desarrollo...\n\nPor ahora, ve a registro.html para probar el registro.');
         
     });
